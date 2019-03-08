@@ -20,7 +20,8 @@
       "@services/*": ["app/services/*"],
       "@env/*": ["environments/*"],
       "@assets/*": ["assets/*"],
-      "@components/*": ["app/components/*"]
+      "@components/*": ["app/components/*"],
+      "@shared/*": ["app/shared/*"]
     },
     "lib": [
       "es6",

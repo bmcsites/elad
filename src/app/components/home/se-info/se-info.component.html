@@ -1,16 +1,17 @@
 <ng-template #statusModal let-c="close" let-d="dismiss" style="width: auto">
   <div class="modal-header">
+    <h4 class="modal-title">game info</h4>
     <button type="button" class="close" aria-label="Close" (click)="c('')">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
   <div class="info-box" *ngIf="q">
-    <h4><b>away team:</b> {{q.away_team}}</h4>
-    <h4><b>home team:</b> {{q.home_team}}</h4>
-    <h4><b>data:</b> {{q.data}}</h4>
-    <h4><b>group:</b> {{q.group}}</h4>
-    <h4><b>result:</b> {{q.result}}</h4>
-    <h4><b>round number:</b> {{q.round_number}}</h4>
-    <h4><b>stadium:</b> {{q.stadium}}</h4>
+    <h4><b>Sway team:</b> {{q.away_team}}</h4>
+    <h4><b>Home team:</b> {{q.home_team}}</h4>
+    <h4><b>Date:</b> {{q.date}}</h4>
+    <h4><b>Group:</b> {{q.group}}</h4>
+    <h4><b>Result:</b> {{q.result}}</h4>
+    <h4><b>Round number:</b> {{q.round_number}}</h4>
+    <h4><b>Stadium:</b> {{q.stadium}}</h4>
   </div>
 </ng-template>

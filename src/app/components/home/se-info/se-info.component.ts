@@ -1,5 +1,6 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {NgbModal, NgbModalRef} from '@ng-bootstrap/ng-bootstrap';
+import { GameData } from '@shared/modules/game-data.inteface';
 
 @Component({
   selector: 'app-se-info',
@@ -16,7 +17,7 @@ export class SeInfoComponent {
   }
 
   // open modal
-  openModal(q) {
+  openModal(q: GameData) {
     this.q = q;
     this.modelWindow = this.modalService.open(this.statusModal, { backdrop : true, beforeDismiss: () => false });
   }

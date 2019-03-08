@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { SeInfoComponent } from '@components/home/se-info/se-info.component';
+import { GameData } from '@shared/modules/game-data.inteface';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,7 @@ export class HomeComponent {
 
   constructor() { }
 
-  gameClicked(e) {
+  gameClicked(e: GameData) {
     this.child.openModal(e);
   }
 }

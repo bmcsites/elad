@@ -7,8 +7,8 @@ export class HttpService {
 
   constructor(private http: HttpClient) { }
 
-  // create call to server to get images.
-  getgames() {
+  // create call to server to get Games.
+  getGames() {
     return this.http.get('assets/data/data.json');
   }
 }
