@@ -1,0 +1,16 @@
+<ng-template #statusModal let-c="close" let-d="dismiss" style="width: auto">
+  <div class="modal-header">
+    <button type="button" class="close" aria-label="Close" (click)="c('')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="info-box" *ngIf="q">
+    <h4><b>away team:</b> {{q.away_team}}</h4>
+    <h4><b>home team:</b> {{q.home_team}}</h4>
+    <h4><b>data:</b> {{q.data}}</h4>
+    <h4><b>group:</b> {{q.group}}</h4>
+    <h4><b>result:</b> {{q.result}}</h4>
+    <h4><b>round number:</b> {{q.round_number}}</h4>
+    <h4><b>stadium:</b> {{q.stadium}}</h4>
+  </div>
+</ng-template>

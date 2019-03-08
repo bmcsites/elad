@@ -1,0 +1,578 @@
+[
+  {
+    "round_number": 1,
+    "data": "14/06/2018 18:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "Russia",
+    "away_team": "Saudi Arabia",
+    "group": "group A",
+    "result": "5 - 0"
+  },
+  {
+    "round_number": 1,
+    "data": "15/06/2018 15:00",
+    "stadium": "Ekaterinburg stadium",
+    "home_team": "Egypt",
+    "away_team": "Uruguay",
+    "group": "group A",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "15/06/2018 18:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Morocco",
+    "away_team": "Iran",
+    "group": "group B",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "15/06/2018 21:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Portugal",
+    "away_team": "Spain",
+    "group": "group B",
+    "result": "3 - 3"
+  },
+  {
+    "round_number": 1,
+    "data": "16/06/2018 13:00",
+    "stadium": "Kazan Arena",
+    "home_team": "France",
+    "away_team": "Australia",
+    "group": "group C",
+    "result": "2 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "16/06/2018 16:00",
+    "stadium": "Otkrytiye Arena, Moscow",
+    "home_team": "Argentina",
+    "away_team": "Iceland",
+    "group": "group D",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "16/06/2018 19:00",
+    "stadium": "Saransk stadium",
+    "home_team": "Peru",
+    "away_team": "Denmark",
+    "group": "group C",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "16/06/2018 22:00",
+    "stadium": "Kaliningrad stadium",
+    "home_team": "Croatia",
+    "away_team": "Nigeria",
+    "group": "group D",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": 1,
+    "data": "17/06/2018 15:00",
+    "stadium": "Samara stadium",
+    "home_team": "Costa Rica",
+    "away_team": "Serbia",
+    "group": "group E",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "17/06/2018 18:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "Germany",
+    "away_team": "Mexico",
+    "group": "group F",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "17/06/2018 21:00",
+    "stadium": "Rostov-on-Don stadium",
+    "home_team": "Brazil",
+    "away_team": "Switzerland",
+    "group": "group E",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 1,
+    "data": "18/06/2018 15:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "Sweden",
+    "away_team": "Korea Republic",
+    "group": "group F",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": 1,
+    "data": "18/06/2018 18:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Belgium",
+    "away_team": "Panama",
+    "group": "group G",
+    "result": "3 - 0"
+  },
+  {
+    "round_number": 1,
+    "data": "18/06/2018 21:00",
+    "stadium": "Volgograd stadium",
+    "home_team": "Tunisia",
+    "away_team": "England",
+    "group": "group G",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 1,
+    "data": "19/06/2018 15:00",
+    "stadium": "Saransk stadium",
+    "home_team": "Colombia",
+    "away_team": "Japan",
+    "group": "group H",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 1,
+    "data": "19/06/2018 18:00",
+    "stadium": "Otkrytiye Arena, Moscow",
+    "home_team": "Poland",
+    "away_team": "Senegal",
+    "group": "group H",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 2,
+    "data": "19/06/2018 21:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Russia",
+    "away_team": "Egypt",
+    "group": "group A",
+    "result": "3 - 1"
+  },
+  {
+    "round_number": 2,
+    "data": "20/06/2018 15:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "Portugal",
+    "away_team": "Morocco",
+    "group": "group B",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": 2,
+    "data": "20/06/2018 18:00",
+    "stadium": "Rostov-on-Don stadium",
+    "home_team": "Uruguay",
+    "away_team": "Saudi Arabia",
+    "group": "group A",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": 2,
+    "data": "20/06/2018 21:00",
+    "stadium": "Kazan Arena",
+    "home_team": "Iran",
+    "away_team": "Spain",
+    "group": "group B",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 2,
+    "data": "21/06/2018 15:00",
+    "stadium": "Samara stadium",
+    "home_team": "Denmark",
+    "away_team": "Australia",
+    "group": "group C",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 2,
+    "data": "21/06/2018 18:00",
+    "stadium": "Ekaterinburg stadium",
+    "home_team": "France",
+    "away_team": "Peru",
+    "group": "group C",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": 2,
+    "data": "21/06/2018 21:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "Argentina",
+    "away_team": "Croatia",
+    "group": "group D",
+    "result": "0 - 3"
+  },
+  {
+    "round_number": 2,
+    "data": "22/06/2018 15:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Brazil",
+    "away_team": "Costa Rica",
+    "group": "group E",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": 2,
+    "data": "22/06/2018 18:00",
+    "stadium": "Volgograd stadium",
+    "home_team": "Nigeria",
+    "away_team": "Iceland",
+    "group": "group D",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": 2,
+    "data": "22/06/2018 21:00",
+    "stadium": "Kaliningrad stadium",
+    "home_team": "Serbia",
+    "away_team": "Switzerland",
+    "group": "group E",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 2,
+    "data": "23/06/2018 15:00",
+    "stadium": "Otkrytiye Arena, Moscow",
+    "home_team": "Belgium",
+    "away_team": "Tunisia",
+    "group": "group G",
+    "result": "5 - 2"
+  },
+  {
+    "round_number": 2,
+    "data": "23/06/2018 18:00",
+    "stadium": "Rostov-on-Don stadium",
+    "home_team": "Korea Republic",
+    "away_team": "Mexico",
+    "group": "group F",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 2,
+    "data": "23/06/2018 21:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Germany",
+    "away_team": "Sweden",
+    "group": "group F",
+    "result": "2 - 1"
+  },
+  {
+    "round_number": 2,
+    "data": "24/06/2018 15:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "England",
+    "away_team": "Panama",
+    "group": "group G",
+    "result": "6 - 1"
+  },
+  {
+    "round_number": 2,
+    "data": "24/06/2018 18:00",
+    "stadium": "Ekaterinburg stadium",
+    "home_team": "Japan",
+    "away_team": "Senegal",
+    "group": "group H",
+    "result": "2 - 2"
+  },
+  {
+    "round_number": 2,
+    "data": "24/06/2018 21:00",
+    "stadium": "Kazan Arena",
+    "home_team": "Poland",
+    "away_team": "Colombia",
+    "group": "group H",
+    "result": "0 - 3"
+  },
+  {
+    "round_number": 3,
+    "data": "25/06/2018 17:00",
+    "stadium": "Samara stadium",
+    "home_team": "Uruguay",
+    "away_team": "Russia",
+    "group": "group A",
+    "result": "3 - 0"
+  },
+  {
+    "round_number": 3,
+    "data": "25/06/2018 17:00",
+    "stadium": "Volgograd stadium",
+    "home_team": "Saudi Arabia",
+    "away_team": "Egypt",
+    "group": "group A",
+    "result": "2 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "25/06/2018 21:00",
+    "stadium": "Saransk stadium",
+    "home_team": "Iran",
+    "away_team": "Portugal",
+    "group": "group B",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "25/06/2018 21:00",
+    "stadium": "Kaliningrad stadium",
+    "home_team": "Spain",
+    "away_team": "Morocco",
+    "group": "group B",
+    "result": "2 - 2"
+  },
+  {
+    "round_number": 3,
+    "data": "26/06/2018 17:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "Denmark",
+    "away_team": "France",
+    "group": "group C",
+    "result": "0 - 0"
+  },
+  {
+    "round_number": 3,
+    "data": "26/06/2018 17:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Australia",
+    "away_team": "Peru",
+    "group": "group C",
+    "result": "0 - 2"
+  },
+  {
+    "round_number": 3,
+    "data": "26/06/2018 21:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Nigeria",
+    "away_team": "Argentina",
+    "group": "group D",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": 3,
+    "data": "26/06/2018 21:00",
+    "stadium": "Rostov-on-Don stadium",
+    "home_team": "Iceland",
+    "away_team": "Croatia",
+    "group": "group D",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "27/06/2018 17:00",
+    "stadium": "Ekaterinburg stadium",
+    "home_team": "Mexico",
+    "away_team": "Sweden",
+    "group": "group F",
+    "result": "0 - 3"
+  },
+  {
+    "round_number": 3,
+    "data": "27/06/2018 17:00",
+    "stadium": "Kazan Arena",
+    "home_team": "Korea Republic",
+    "away_team": "Germany",
+    "group": "group F",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": 3,
+    "data": "27/06/2018 21:00",
+    "stadium": "Otkrytiye Arena, Moscow",
+    "home_team": "Serbia",
+    "away_team": "Brazil",
+    "group": "group E",
+    "result": "0 - 2"
+  },
+  {
+    "round_number": 3,
+    "data": "27/06/2018 21:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "Switzerland",
+    "away_team": "Costa Rica",
+    "group": "group E",
+    "result": "2 - 2"
+  },
+  {
+    "round_number": 3,
+    "data": "28/06/2018 17:00",
+    "stadium": "Volgograd stadium",
+    "home_team": "Japan",
+    "away_team": "Poland",
+    "group": "group H",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "28/06/2018 17:00",
+    "stadium": "Samara stadium",
+    "home_team": "Senegal",
+    "away_team": "Colombia",
+    "group": "group H",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "28/06/2018 21:00",
+    "stadium": "Saransk stadium",
+    "home_team": "Panama",
+    "away_team": "Tunisia",
+    "group": "group G",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": 3,
+    "data": "28/06/2018 21:00",
+    "stadium": "Kaliningrad stadium",
+    "home_team": "England",
+    "away_team": "Belgium",
+    "group": "group G",
+    "result": "0 - 1"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "30/06/2018 17:00",
+    "stadium": "Kazan Arena",
+    "home_team": "France",
+    "away_team": "Argentina",
+    "group": "",
+    "result": "4 - 3"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "30/06/2018 21:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Uruguay",
+    "away_team": "Portugal",
+    "group": "",
+    "result": "2 - 1"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "01/07/2018 17:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "Spain",
+    "away_team": "Russia",
+    "group": "",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "01/07/2018 21:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "Croatia",
+    "away_team": "Denmark",
+    "group": "",
+    "result": "1 - 1"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "02/07/2018 17:00",
+    "stadium": "Samara stadium",
+    "home_team": "Brazil",
+    "away_team": "Mexico",
+    "group": "",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "02/07/2018 21:00",
+    "stadium": "Rostov-on-Don stadium",
+    "home_team": "Belgium",
+    "away_team": "Japan",
+    "group": "",
+    "result": "3 - 2"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "03/07/2018 17:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Sweden",
+    "away_team": "Switzerland",
+    "group": "",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": "Round of 16",
+    "data": "03/07/2018 21:00",
+    "stadium": "Otkrytiye Arena, Moscow",
+    "home_team": "Colombia",
+    "away_team": "England",
+    "group": "",
+    "result": "1 -1"
+  },
+  {
+    "round_number": "Quarter Finals",
+    "data": "06/07/2018 17:00",
+    "stadium": "Nizhny Novgorod stadium",
+    "home_team": "Uruguay",
+    "away_team": "France",
+    "group": "",
+    "result": "0 - 2"
+  },
+  {
+    "round_number": "Quarter Finals",
+    "data": "06/07/2018 21:00",
+    "stadium": "Kazan Arena",
+    "home_team": "Brazil",
+    "away_team": "Belgium",
+    "group": "",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": "Quarter Finals",
+    "data": "07/07/2018 17:00",
+    "stadium": "Samara stadium",
+    "home_team": "Sweden",
+    "away_team": "England",
+    "group": "",
+    "result": "0 - 2"
+  },
+  {
+    "round_number": "Quarter Finals",
+    "data": "07/07/2018 21:00",
+    "stadium": "Fisht stadium, Sochi",
+    "home_team": "Russia",
+    "away_team": "Croatia",
+    "group": "",
+    "result": "2 - 2"
+  },
+  {
+    "round_number": "Semi Finals",
+    "data": "10/07/2018 21:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "France",
+    "away_team": "Belgium",
+    "group": "",
+    "result": "1 - 0"
+  },
+  {
+    "round_number": "Semi Finals",
+    "data": "11/07/2018 21:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "England",
+    "away_team": "Croatia",
+    "group": "",
+    "result": "1 - 2"
+  },
+  {
+    "round_number": "Finals",
+    "data": "14/07/2018 17:00",
+    "stadium": "Saint Petersburg stadium",
+    "home_team": "Belgium",
+    "away_team": "England",
+    "group": "",
+    "result": "2 - 0"
+  },
+  {
+    "round_number": "Finals",
+    "data": "15/07/2018 18:00",
+    "stadium": "Luzhniki stadium, Moscow",
+    "home_team": "France",
+    "away_team": "Croatia",
+    "group": "",
+    "result": "4 - 2"
+  }
+]

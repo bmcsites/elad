@@ -1,0 +1,19 @@
+<div class="search-box">
+  <input #searchTag type="search" name="q" aria-label="Search through site content" placeholder="search to view result"/>
+  <select [(ngModel)]="optSelected">
+    <option value="Team">Team</option>
+    <option value="Stadium">Stadium</option>
+  </select>
+  <button (click)="searchData(searchTag.value)">Search</button>
+</div>
+<ul *ngIf="data && data.length !== 0">
+  <li class="list-box" *ngFor="let q of data" (click)="showInfo(q)">
+    <h3><b>Stadium:</b> {{q.stadium}}</h3>
+    <h3><b>Home team:</b> {{q.home_team}}</h3>
+    <h3><b>Away team:</b> {{q.away_team}}</h3>
+    <h3><b>Data:</b> {{q.date}}</h3>
+  </li>
+</ul>
+<div class="no-games">
+  <p *ngIf="data && data.length === 0">no result found</p>
+</div>

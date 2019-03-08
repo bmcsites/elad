@@ -1,0 +1,24 @@
+.search-box {
+  position: fixed;
+  input{
+    margin-bottom: 20px;
+  }
+}
+ul {
+  padding: 0;
+  margin-top: 38px;
+  li {
+    border: 1px black solid;
+    padding: 10px;
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+    &:hover{
+      background: antiquewhite;
+    }
+  }
+}
+p{
+  margin-top: 38px;
+}
+
