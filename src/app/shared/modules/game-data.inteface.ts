@@ -8,6 +8,7 @@ export interface GamesData {
     round_number: number;
     stadium: string;
   };
+  length: any;
 }
 
 export interface GameData {
