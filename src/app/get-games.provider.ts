@@ -6,13 +6,13 @@ export class GetGamesProvider {
   private data: any = null;
   constructor(private http: HttpClient) {}
 
-  public getgames(): any {
+  public getGames(): any {
     return this.data;
   }
 
   load() {
     return new Promise((resolve, reject) => {
-      this.getGames().subscribe((data: any[]) => {
+      this.getAllGames().subscribe((data: any[]) => {
           if (data) {
             this.data = data;
             resolve(true);
@@ -25,7 +25,7 @@ export class GetGamesProvider {
     });
   }
 
-  getGames() {
+  getAllGames() {
     return this.http.get('assets/data/data.json');
   }
 }

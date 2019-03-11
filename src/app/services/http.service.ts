@@ -10,7 +10,7 @@ export class HttpService {
   uniqueStadium: any[];
 
   constructor(private getGamesProvider: GetGamesProvider) {
-    this.data = getGamesProvider.getgames();
+    this.data = getGamesProvider.getGames();
     this.uniqueTeams = Array.from(new Set(this.data.map(game => game.away_team ).concat(this.data.map(game => game.home_team ))));
     this.uniqueStadium = Array.from(new Set(this.data.map(game => game.stadium )));
   }
