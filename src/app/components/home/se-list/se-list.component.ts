@@ -1,6 +1,6 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { HttpService } from '@services/http.service';
-import { GameData, GamesData } from '@shared/modules/game-data.inteface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-se-list',
@@ -8,36 +8,32 @@ import { GameData, GamesData } from '@shared/modules/game-data.inteface';
   styleUrls: ['./se-list.component.scss']
 })
 export class SeListComponent {
-  data: GamesData;
-  @Output() valueChange = new EventEmitter();
+  data: any;
   optSelected: string;
   searchQ: string;
 
-  constructor(private httpService: HttpService) {
+  constructor(private httpService: HttpService, private router: Router) {
     this.optSelected = 'Team';
     this.searchQ = '';
+    this.data = [];
   }
 
   searchData(searchTag) {
-    if (searchTag.length < 2 || !searchTag) {
+    if (searchTag.length < 1 || !searchTag) {
       this.data = [];
     } else {
-      this.httpService.getGames().subscribe((data: any[]) => {
-          if (data) {
-            if (this.optSelected === 'Team') {
-                this.data = data.filter( game => game.away_team.toLowerCase().startsWith(searchTag) || game.home_team.toLowerCase().startsWith(searchTag));
-            } else {
-                this.data = data.filter( game => game.stadium.toLowerCase().startsWith(searchTag));
-            }
-          }
-        },
-        err => {
-          console.log('err:::', err);
-        });
+      if (this.optSelected === 'Team') {
+        const uniqueTeams = this.httpService.uniqueTeams;
+        this.data = uniqueTeams.filter( game => game.toLowerCase().startsWith(searchTag));
+      } else {
+        const uniqueStadium = this.httpService.uniqueStadium;
+        this.data = uniqueStadium.filter( game => game.toLowerCase().startsWith(searchTag));
+      }
     }
   }
 
-  showInfo(q: GameData) {
-    this.valueChange.emit(q);
+  showInfo(q: string) {
+    const path = this.optSelected === 'Team' ? '/teams/' + q : '/stadiums/' + q;
+    this.router.navigate([path]);
   }
 }

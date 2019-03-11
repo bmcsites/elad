@@ -1,14 +1,17 @@
 // Angular's
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import {GetGamesProvider} from '@appRoot/get-games.provider';
 
 @Injectable()
 export class HttpService {
+  name: string;
+  data: any;
+  uniqueTeams: any[];
+  uniqueStadium: any[];
 
-  constructor(private http: HttpClient) { }
-
-  // create call to server to get Games.
-  getGames() {
-    return this.http.get('assets/data/data.json');
+  constructor(private getGamesProvider: GetGamesProvider) {
+    this.data = getGamesProvider.getgames();
+    this.uniqueTeams = Array.from(new Set(this.data.map(game => game.away_team ).concat(this.data.map(game => game.home_team ))));
+    this.uniqueStadium = Array.from(new Set(this.data.map(game => game.stadium )));
   }
 }

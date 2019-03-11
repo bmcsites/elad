@@ -1,0 +1,11 @@
+<button class="btn btn-info" [routerLink]="['/home']">Back To Home</button>
+<h2> stadium {{ name | titlecase }} Games</h2>
+<ul *ngIf="data && data.length !== 0">
+  <li class="list-box" *ngFor="let q of data" (click)="gameClicked(q)">
+    <h3><b>Stadium:</b> {{q.stadium}}</h3>
+    <h3><b>Home team:</b> {{q.home_team}}</h3>
+    <h3><b>Away team:</b> {{q.away_team}}</h3>
+    <h3><b>Data:</b> {{q.date}}</h3>
+  </li>
+</ul>
+<app-se-info #seInfo></app-se-info>

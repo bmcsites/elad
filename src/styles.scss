@@ -6,7 +6,10 @@
   margin-top: 5%;
 }
 
-h1{
+h1, h2{
+  &:first-letter {
+    text-transform: uppercase;
+  }
   text-align: center;
   margin-bottom: 20px;
 }
@@ -30,3 +33,65 @@ h1{
 .input-group.md-form.form-sm.form-2 input.amber-border  {
   border: 1px solid #ffca28;
 }
+
+
+.search-box {
+  position: fixed;
+  width: 100%;
+  max-width: 1093px;
+  background: white;
+  input{
+    margin-bottom: 20px;
+  }
+  label{
+    padding-right: 10px;
+  }
+  .search-input {
+    margin-bottom: 5px;
+  }
+}
+ul {
+  padding: 0;
+  margin-top: 76px;
+  li {
+    border: 1px black solid;
+    padding: 10px;
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+    &:hover{
+      background: antiquewhite;
+    }
+  }
+}
+p{
+  margin-top: 38px;
+}
+
+.no-games {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .search-box {
+    max-width: 911px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .search-box {
+    max-width: 672px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .search-box {
+    max-width: 492px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .search-box {
+    max-width: 540px;
+    width: 95%;
+  }
+}
+
